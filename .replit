@@ -1,0 +1,17 @@
+run = "python terminal_agent.py"
+entrypoint = "terminal_agent.py"
+
+# Language configuration
+language = "python3"
+
+# Packaging configuration
+[packaging]
+ignorePaths = [".git", ".gitignore", "README.md"]
+
+# Replit API configuration
+[replit.api]
+langauge = "python3"
+
+# Environment variables
+[env]
+PYTHONUNBUFFERED = "1" 
